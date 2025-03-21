@@ -4,3 +4,20 @@
     max-height: 500px; /* Atur batas tinggi maksimum jika diperlukan */
     width: 100%; /* Gambar tetap memenuhi lebar carousel */
 }
+
+body {
+    background-image: url('Background.jpg'); /* Gambar latar belakang */
+    background-size: cover; /* Gambar memenuhi seluruh halaman */
+    background-repeat: no-repeat; /* Tidak mengulang gambar */
+    background-attachment: fixed; /* Gambar tetap saat halaman di-scroll */
+    background-position: center; /* Gambar diposisikan di tengah */
+}
+
+.hero-text, .section-title {
+    background-color: rgba(0, 0, 0, 0.5); /* Latar belakang transparan */
+    color: white; /* Warna teks putih */
+    font-weight: bold; /* Membuat teks tebal */
+    padding: 20px; /* Memberikan ruang di sekitar teks */
+    border-radius: 10px; /* Membuat sudut kotak melengkung */
+    display: inline-block; /* Menyesuaikan ukuran kotak dengan teks */
+}
