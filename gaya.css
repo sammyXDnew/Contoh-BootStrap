@@ -1,0 +1,6 @@
+.carousel-item img {
+    object-fit: contain; /* Gambar akan menyesuaikan ukuran tanpa dipotong */
+    height: auto; /* Tinggi akan mengikuti proporsi gambar */
+    max-height: 500px; /* Atur batas tinggi maksimum jika diperlukan */
+    width: 100%; /* Gambar tetap memenuhi lebar carousel */
+}
